@@ -1,0 +1,40 @@
+.battery-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;  /* Added padding */
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .battery-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .battery-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .battery-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .battery-card .price {
+    font-weight: bold;
+    color: #e53935;
+  }
+  
+  button {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
